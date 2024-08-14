@@ -1,0 +1,26 @@
+{
+  "name": "be-scan-eat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coeg": "node --env-file=.env --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirfansyah258/be-scan-eat.git"
+  },
+  "author": "irfnsyh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirfansyah258/be-scan-eat/issues"
+  },
+  "homepage": "https://github.com/mirfansyah258/be-scan-eat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "sequelize": "^6.37.3"
+  }
+}
